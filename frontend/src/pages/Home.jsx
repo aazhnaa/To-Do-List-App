@@ -9,9 +9,7 @@ const Home = ({tasks, setTasks}) => {
         setTasks([])
     }
   return (
-    <div >
-        
-        
+    <div >    
       {
         (tasks.length === 0 ) ? <p className='text-[50px] m-8 text-gray-600 font-bold '>No tasks yet! </p>
          :
